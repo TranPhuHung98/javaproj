@@ -1,0 +1,169 @@
+.background-button {
+	background-color: #F94F01;
+	color: white;
+}
+
+.background-button:hover {
+	background-color: #009900;
+}
+
+/** height of button search **/
+.height-button-search {
+	height: 38px
+}
+
+/** padding of input search **/
+.padding-input {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/** width of input search bar **/
+.size-input {
+	width: 537px;
+}
+
+/** padding of cart icon **/
+.padding-cart {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+/** padding of logo **/
+.padding-banner-top {
+	padding: 0px;
+}
+
+/** style of category button **/
+.button-list-category {
+	background-color: #F94F01;
+	color: white;
+	height: 50px;
+	width: 240px;
+	border-color: #F94F01;
+}
+/** hover color of category button **/
+.button-list-category:hover {
+	background-color: #F94F01;
+}
+
+/** hover color of button list category **/
+.w3-dropdown-click:hover {
+	background-color: #F94F01;
+}
+/** hover color of button list category **/
+.fa fa-caret-down:hover{
+background-color: #F94F01;
+}
+
+/** style of item dropdown **/
+.w3-bar-item{
+font-weight: 500;
+font-size: 12px;
+padding-left:8px!important;
+}
+/** hover color of item dropdown **/
+.w3-bar-item:hover{
+color: #339933;
+background-color: #EEEEEE;
+}
+
+/** hover color of item dropdown **/
+a:hover {
+    text-decoration: none;
+}
+
+/** style of slide content **/
+.slideshow-container {
+	max-width: 774px;
+	max-height: 400px;
+	position: relative;
+	padding: 0px;
+	/*   margin: ; */
+}
+
+/** style of image of slide **/
+.mySlides {
+	display: none;
+}
+
+/** style of slide effect **/
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 0s;
+	animation-name: fade;
+	animation-duration: 5s;
+}
+
+/** style of header sticky **/
+.header {
+	display: block;
+	z-index: 5;
+	background-color: white;
+}
+
+/** content of header sticky **/
+.content {
+	padding: 16px;
+}
+
+/** content of header sticky **/
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+
+.sticky+.content {
+	padding-top: 50px;
+}
+
+@
+-webkit-keyframes fade {
+	from {opacity: .4
+}
+
+to {
+	opacity: 1
+}
+
+}
+@
+keyframes fade {
+	from {opacity: .4
+}
+
+to {
+	opacity: 1
+}
+
+}
+.dropdown-btn {
+	cursor: pointer;
+	outline: none;
+}
+
+.dropdown-container {
+	display: none;
+	background-color: #262626;
+	padding-left: 8px;
+}
+
+.dropdown-item-container {
+	width: 240px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+	float: right;
+	padding-right: 8px;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.text {
+		font-size: 11px
+	}
+}

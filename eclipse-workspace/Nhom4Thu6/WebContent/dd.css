@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+A:HOVER {
+	color: red;
+	background: green;
+}
+.mau{
+	color: green;
+	background: red;
+	border-color: yellow;
+}
